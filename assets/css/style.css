@@ -1,5 +1,6 @@
 :root {
     --gris: #DDDDDD;
+    --negroL: #373A3C;
 }
 
 body {
@@ -11,6 +12,21 @@ body {
     font-size: 39px;
 }
 
-.header_boton {
+.header_boton, .seccion_newslatter_boton {
     border: 1px solid var(--gris);
+}
+
+.seccion_newslatter_boton {
+    padding: 7px 115px;
+}
+
+.section_ingredientes ul li{
+    text-decoration: none;
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 6px 0;
+}
+
+.seccion_newslatter {
+    padding: 90px 10px;
 }
