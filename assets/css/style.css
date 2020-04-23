@@ -16,8 +16,15 @@ body {
     border: 1px solid var(--gris);
 }
 
-.seccion_newslatter_boton {
-    padding: 7px 115px;
+.carousel-indicators {
+    top: 110%;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    background-color: var(--negroL);
+    width: 11px;
+    height: 11px;
 }
 
 .section_ingredientes ul li{
@@ -29,4 +36,24 @@ body {
 
 .seccion_newslatter {
     padding: 90px 10px;
+}
+
+.seccion_newslatter p {
+    font-size: 18pt;
+}
+
+.seccion_newslatter p span {
+    font-family: 'Lobster', cursive;
+}
+
+.seccion_newslatter_boton {
+    padding: 7px 105px;
+}
+
+footer {
+    font-family: 'Lobster', cursive;
+}
+
+footer h2 {
+    font-size: 32pt;
 }
