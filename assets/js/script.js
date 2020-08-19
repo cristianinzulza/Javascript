@@ -5,8 +5,7 @@ $(function () {
         alert("El correo fue enviado correctamente...")
     });
 
-    $('body').on('dblclick','h4',function (e) {
-        e.preventDefault();
+    $('body').on('dblclick','h4',function () {
         $(this).css("color",'red');
     });
 
