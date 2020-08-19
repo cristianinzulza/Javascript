@@ -52,6 +52,12 @@ body {
     padding: 7px 105px;
 }
 
+.seccion_newslatter_boton_jquery {
+    background-color: beige;
+    font-size: 24px;
+    color: black !important;
+}
+
 footer {
     font-family: 'Lobster', cursive;
 }
